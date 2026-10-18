@@ -1,0 +1,16 @@
+#python 缓存文件
+__pycache__/
+*.py[cod]
+
+#虚拟环境
+.venv/
+venv/
+
+#本地环境配置
+.env
+
+#pycharm 本地配置
+.idea/
+
+#测试缓存
+.pytest_cache/
