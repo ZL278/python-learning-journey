@@ -14,3 +14,5 @@ venv/
 
 #测试缓存
 .pytest_cache/
+data/
+todo.json
