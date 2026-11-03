@@ -10,9 +10,14 @@ python -m pip freeze > requirements.txt
 pip：包管理工具:负责安装、卸载、查看和管理 Python 第三方库。
 > 是 shell 的输出重定向符号,文件不存在，就创建；如果已存在，会清空覆盖。
 追加而不是覆盖，用 >>
+"""
 
+"""
 复现环境:
 别人python -m pip install -r requirements.txt 装一样的包
+python -m pip 能保证：哪个 python 解释器，就用它自己的 pip
+-r 是 --requirement 的简写后面跟一个文件路径，pip 会逐行读取这个文件，把每一行当作「要安装的包」来处理。
+
 
 5 个命令
 python -m pip list	查看当前环境已安装的包
